@@ -2,12 +2,12 @@ package main
 
 import (
 	"fmt"
-	print "package-example/formatter"
+	"package-example/formatter"
 	"package-example/math"
 )
 
 func main() {
 	num := math.Double(2)
-	output := print.Format(num)
+	output := formatter.Format(num)
 	fmt.Println(output)
 }
